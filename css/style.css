@@ -98,6 +98,55 @@ body {
   font-size: 1vw;
   white-space: nowrap;
 }
+@media (max-width: 1440px) {
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6vh;
+    width: 100%;
+    box-shadow: 4px 0px 10px 0px #2f7af91a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+    background-color: white;
+    z-index: 1000;
+  }
+  .nav-menu {
+    display: flex;
+    gap: 2vw;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .nav-menu a {
+    font-size: 2.01vw;
+  }
+
+  .left h1 {
+    font-size: 3.4vw;
+    line-height: 4vw;
+    letter-spacing: 0.2vw;
+    word-spacing: 0.8vw;
+  }
+
+  .left p {
+    font-size: 1.2vw;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+  }
+
+  .left button {
+    font-size: 1.3vw;
+    padding: 1vw 2vw;
+  }
+  .main {
+    width: 100%;
+    position: relative;
+    padding-top: 6vh;
+    overflow-x: hidden;
+  }
+}
 
 /* Hero Content */
 .content {
