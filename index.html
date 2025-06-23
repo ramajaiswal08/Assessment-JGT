@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Assesment-JTG</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+</head>
+
+<body>
+    <section>
+        <div class="main">
+            <div class="nav">
+                <div class="nav-logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class=" nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#recommendations">Recommendations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="left">
+                    <h1>I'm Rayan Adlrdard <span> Front-end</span> Developer </h1>
+                    <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. ET, Volutpat Feugiat Placerat Lobortis.
+                        Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.</p>
+                    <button>Hire me<i class='bx  bx-arrow-right-stroke'></i> </button>
+
+                </div>
+                <div class="right">.
+                    <img src="images/hero.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="project-section">
+        <h2>Projects</h2>
+        <p class="projects-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+            officia <br> consequat duis enim velit mollit. lorem ipsum</p>
+
+        <div id="project-cards" class="project-cards"></div>
+    </section>
+    <section id="recommendations" class="recommendation-section">
+        <h2>Recommendations</h2>
+        <p class="projects-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+            officia <br> consequat duis enim velit mollit. lorem ipsum</p>
+        <div class="recommendations-container" id="recommendation-cards"></div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div id="contact-form">
+            <h2>Leave ME Your Info</h2>
+            <div class="form-container">
+                <form id="contactForm" class="contact-form">
+                    <label for="name">Your Full Name (Required)</label>
+                    <input type="text" id="name" name="name" required pattern="[a-zA-Z\s]+">
+
+                    <label for="email">Your Email (Required)</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required pattern="[a-zA-Z\s]+">
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" maxlength="500" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="contact-information">
+            <h2>Contact Information</h2>
+            <div id="contact-cards-wrapper" class="contact-cards-wrapper flex">
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Logos Row -->
+            <div class="logos-row">
+                <img src="images/3eenrate.png" alt="enerate3" />
+                <img src="images/gl.png" alt="GL" />
+                <img src="images/genrate.png" alt="Genrate" />
+                <img src="images/generate.png" alt="3Gen" />
+            </div>
+
+            <!-- Footer Grid -->
+            <div class="footer-content">
+                <!-- Logo and Ratings -->
+                <div class="footer-block logo-ratings">
+                    <div class="logo-and-ratings">
+                        <img src="images/logo.png" alt="Logo" class="main-logo" />
+
+                        <div class="ratings-row">
+                            <div class="rating-item">
+                                <img src="images/soungnc.png" alt="Rating 1" />
+                                <p>4.5/5 Rating on Lorem</p>
+                            </div>
+                            <div class="rating-item">
+                                <img src="images/ndot.png" alt="Rating 2" />
+                                <p>9/10 Rating on Ipsum</p>
+                            </div>
+                            <div class="rating-item">
+                                <img src="images/nov.png" alt="Rating 3" />
+                                <p>4.5/5 Rating on Dorel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-block">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li>Home</li>
+                        <li>Skills</li>
+                        <li>Education</li>
+                        <li>Projects</li>
+                        <li>Recommendations</li>
+                    </ul>
+                </div>
+
+                <!-- Portfolio -->
+                <div class="footer-block">
+                    <h4>Portfolio</h4>
+                    <ul>
+                        <li>Frontend Development</li>
+                        <li>Backend Development</li>
+                        <li>Website Design</li>
+                        <li>Machine Learning</li>
+                        <li>Problem Solving & DSA</li>
+                    </ul>
+                </div>
+
+                <!-- Connect -->
+                <div class="footer-block">
+                    <h4>Connect</h4>
+                    <ul class="social-links">
+                        <li><img src="images/linkedin.png" alt="Linkedin" /></li>
+                        <li><img src="images/instagram.png" alt="Instagram" /></li>
+                        <li><img src="images/facebook.png" alt="Linkedin" /></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>© <span id="year"></span> Copyright, All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery and Slick Slider JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const nav = document.querySelector('.nav');
+            if (!nav) {
+                console.warn('Navigation container not found!');
+                return;
+            }
+
+            const navLinks = nav.querySelectorAll('ul li a');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    const headerHeight = nav.offsetHeight;
+                    const targetId = link.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+
+                    if (targetSection) {
+                        const offsetTop = targetSection.getBoundingClientRect().top + window.scrollY - headerHeight;
+
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+                    } else {
+                        console.warn('Section not found for ID:', targetId);
+                    }
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>
