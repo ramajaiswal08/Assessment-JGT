@@ -109,3 +109,30 @@ li.slick-active {
   color: #f1c40f; /* Match the golden theme from dots */
   opacity: 0.75; /* Slight transparency */
 }
+
+@media (max-width: 1440px) {
+  .recommendation-section {
+    max-width: 90vw;
+    margin: 0 auto;
+    /* margin-top: -20px; */
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 40px;
+  }
+
+  .recommendation-card {
+    border: 1px solid #0000000d;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    /* min-height: 40vh !important; */
+    width: 22rem !important;
+    height: 20rem !important;
+    padding: 2rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+  }
+}
