@@ -86,7 +86,7 @@
   background-color: #fff;
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
   .project-cards {
     padding: 1.5vh 2.3vh;
   }
@@ -102,9 +102,10 @@
     justify-content: space-between;
   }
   .project-section {
-    margin: -1.8rem auto;
-    margin-left: -2.5rem;
+    margin: -2.1rem auto;
+    margin-left: -3rem;
     text-align: center;
+    margin-bottom: 2.2rem;
   }
   .project-section h2 {
     margin-top: 3rem;
@@ -116,5 +117,32 @@
     justify-content: space-between;
     margin: -2.2rem auto;
     padding: 1.3vh 2.5vh;
+  }
+}
+@media (min-width: 1536px) {
+  .project-section {
+    padding: 5rem;
+  }
+}
+@media (max-width: 1024px) {
+  .project-card {
+    width: 30%; /* Three cards per row */
+  }
+}
+
+/* Tablets (481px - 768px) */
+@media (max-width: 768px) {
+  .project-card {
+    width: 48%; /* Two cards per row */
+  }
+}
+/* Mobile (320px - 480px) */
+@media (max-width: 480px) {
+  .project-card {
+    width: 100%; /* Full width for single-column layout */
+    min-height: auto; /* Allow height to adjust naturally */
+  }
+  .project-section {
+    max-width: 95vw;
   }
 }
